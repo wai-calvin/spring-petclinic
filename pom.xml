@@ -287,6 +287,19 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>56ee39c3aef0-releases</name>
+            <url>http://localhost:8081/artifactory/spring-petclinic</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>56ee39c3aef0-snapshots</name>
+            <url>http://localhost:8081/artifactory/spring-petclinic</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
     <build>
         <defaultGoal>install</defaultGoal>
@@ -418,18 +431,6 @@
             </plugin>
         </plugins>
     </reporting>
-    <distributionManagement>
-        <repository>
-            <id>central</id>
-            <name>56ee39c3aef0-releases</name>
-            <url>http://localhost:8081/artifactory/spring-petclinic</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>56ee39c3aef0-snapshots</name>
-            <url>http://localhost:8081/artifactory/spring-petclinic</url>
-        </snapshotRepository>
-    </distributionManagement>
     <!-- <distributionManagement>
         <snapshotRepository>
             <id>snapshots</id>
