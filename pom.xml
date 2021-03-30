@@ -291,12 +291,12 @@
         <repository>
             <id>central</id>
             <name>56ee39c3aef0-releases</name>
-            <url>http://localhost:8081/artifactory/spring-petclinic</url>
+            <url>http://172.17.0.3:8081/artifactory/spring-petclinic</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>56ee39c3aef0-snapshots</name>
-            <url>http://localhost:8081/artifactory/spring-petclinic</url>
+            <url>http://172.17.0.3:8081/artifactory/spring-petclinic</url>
         </snapshotRepository>
     </distributionManagement>
 
