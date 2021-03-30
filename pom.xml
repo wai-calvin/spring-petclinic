@@ -420,6 +420,18 @@
     </reporting>
 
     <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>56ee39c3aef0-releases</name>
+            <url>http://localhost:8081/artifactory/spring-petclinic</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>56ee39c3aef0-snapshots</name>
+            <url>http://localhost:8081/artifactory/spring-petclinic</url>
+        </snapshotRepository>
+    </distributionManagement>
+    <!-- <distributionManagement>
         <snapshotRepository>
             <id>snapshots</id>
             <url>http://nexus:8081/nexus/content/repositories/snapshots</url>
@@ -428,7 +440,7 @@
             <id>releases</id>
             <url>http://nexus:8081/nexus/content/repositories/releases</url>
         </repository>
-    </distributionManagement>
+    </distributionManagement> -->
 
     <url>demopetclinic</url>
 </project>
